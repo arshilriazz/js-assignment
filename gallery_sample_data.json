@@ -2,23 +2,23 @@
 	"gallery_data" : [
 
 		{
-			"name": "Sample 1",
-			"url": "http://www.gstatic.com/webp/gallery/1.webp",
-			"info": "Some Information about the image",
+			"name": "photo 1",
+			"url": "https://images.unsplash.com/photo-1567170578400-9d182981f2a1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&w=1000&q=80",
+			"info": "Cat image",
 			"uploaded_date": "08/12/2020"
 		},
 
 		{
-			"name": "Sample 2",
-			"url": "http://www.gstatic.com/webp/gallery/2.webp",
-			"info": "Some Information about the image",
+			"name": "photo 2",
+			"url": "https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg",
+			"info": "Cat image",
 			"uploaded_date": "08/12/2020"
 		},
 
 		{
-			"name": "Sample 3",
-			"url": "http://www.gstatic.com/webp/gallery/4.webp",
-			"info": "Some Information about the image",
+			"name": "photo 3",
+			"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4wbOeJohkAmJZ9uamfJWLeK68PlxhZZ8stX-XvFpHp0F3lJJKX3UbIFfVyTE2WSd7QBj894ocK08OLn6hz-9o1fwOiTY8s68&usqp=CAU&ec=45732304",
+			"info": "Cat image",
 			"uploaded_date": "08/12/2020"
 		}
 	]
