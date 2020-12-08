@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contactme.css">
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="contactme.html">Contact Me</a></li>
+        <li><a href="galleryAdmin.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="contact">
+    <div class="content">        
+        <h2>Contact Me</h2>
+        <p>
+          If you want to contact me feel free to send me a message and the 
+          response will be back in no time
+        </p>
+        <br>
+    </div>
+    <div class="contactForm">
+        <form id="form">
+          <h2>Send Message</h2>
+            <div class="inputBox">
+                <label for="fName">Full Name</label>
+                <input id="fName" type="text" required="required">
+            </div>
+            <div class="inputBox">
+              <div id="error"></div>
+            </div>
+            <div class="inputBox">
+                <label for="email">Email</label>
+                <input id="email" type="text">
+            </div>
+            <div class="inputBox">
+                <label for="message">Message...</label>
+                <textarea id="message" required="required"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>  
+            <script src="validation.js"></script>
+        </form>
+    </div>
+  </section>
+</body>
+</html>

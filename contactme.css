@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact {
+    /* position: relative; */
+    min-height: 100vh;
+    padding: 25px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+.contactForm {
+    /* width: auto; */
+    padding: 40px;
+    background-color: rgb(173, 169, 169);  
+}
+
+.contactForm .inputBox {
+    /* position: relative; */
+    width: auto;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox textarea,
+.contactForm .inputBox input {
+    /* display: inline-flexbox; */
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: both;
+}
+
+label {
+    font-weight: 1000;
+}
